@@ -32,7 +32,7 @@ dependencies:
 
   package:
     git:
-      url: git@github.com:bitrise-io/sample-apps-flutter-ios-android-package.git
+      url: https://github.com/bitrise-io/sample-apps-flutter-ios-android-package.git
 
 
 dev_dependencies:

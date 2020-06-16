@@ -101,7 +101,7 @@ packages:
       path: "."
       ref: HEAD
       resolved-ref: f44f5a21cd47f45db70faa1a6aed8c8035483d73
-      url: "git@github.com:bitrise-io/sample-apps-flutter-ios-android-package.git"
+      url: "https://github.com/bitrise-io/sample-apps-flutter-ios-android-package.git"
     source: git
     version: "0.0.1"
   path:
