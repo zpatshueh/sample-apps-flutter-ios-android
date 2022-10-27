@@ -12,11 +12,11 @@
 		<extractSignatureFrom/>
 		<protectionMethod>1</protectionMethod>
 		<selectiveAnalysis>true</selectiveAnalysis>
-		<sourceRoot>git/ios</sourceRoot>
-		<buildLocation>git/ios/Runner.xcworkspace</buildLocation>
-		<analysisRoot>git/ios_analysis</analysisRoot>
-		<profilingRoot>git/ios_profiling</profilingRoot>
-		<protectedRoot>git/ios_protected</protectedRoot>
+		<sourceRoot>ios</sourceRoot>
+		<buildLocation>ios/Runner.xcworkspace</buildLocation>
+		<analysisRoot>ios_analysis</analysisRoot>
+		<profilingRoot>ios_profiling</profilingRoot>
+		<protectedRoot>ios_protected</protectedRoot>
 		<frontendType>default</frontendType>
 		<profilingServerAddress>127.0.0.1</profilingServerAddress>
 		<profilingServerPort>26892</profilingServerPort>
