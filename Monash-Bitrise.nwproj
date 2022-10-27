@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<nw version="n44" generator="2.84.0">
+	<platform type="android">
+		<sdk>/usr/local/share/android-sdk/ndk-bundle</sdk>
+		<googlePlayLicensing>false</googlePlayLicensing>
+		<apkIntegrity>2</apkIntegrity>
+		<apkIntegrityV2PublicKeys>
+			<publicKey>MIICCgKCAgEAzWcVFcE/VGrSXQe3UQX8pYKz6nSW44N4IM1CVkuxczB1KvVC6XdYYYoMTgYw8OfmEfBouxyFhdFv+z4H3ES1xcstjkeM+LYBPppysKJQyBPtwERsEMZFC32pLtg3KOn2ZvEHIB3K25LlHMYOZ2T8+Ipcc+fLmkCoMpKJHgMv580aCJ5PBs28uyudUnklt7rg9plYIq7PVNOFRJXl1CR4bFtWT+n7okfnCGQvc+1rYborwNlNhnLA2orGzwh1e6vm/l5mwolhPELuPGNkvLLteePmU9qDQG5TL8MWkNA94YFnhsD0NNS0wTjf7i61jRpv+hrykqRxHgreHIMgI4ezXsPzkWx5p95Udo1gBgsLDqwAolEMMWKEDC54qg/4ZZanBZyqMRr8WmRFcFQ1ufATVKSjQsBKfkIaa0Wmb6lMQY/vT4ZXRqA06q8athimfkczZst9vxMVhxSUuArgZhQldKUCcYE/g3Tg5eravq603wNrjAYtX66bBP2xn6+mWGDrxAhCLqTbPscO4fse3XI00GVjXuMLp3wqR3knfSEGY32AizEFJkjLQ0vrlPiqDM4BOMJ8J+rXg8eBnQ1OLqGNqFFU5sinfFBodjxW3C1iT5ETnhgAXYSWB32IHphQWMjc5RayD1ni1jO36f/MLNxpzjReoDbQW7iXteqCu0G2PP0CAwEAAQ==</publicKey>
+		</apkIntegrityV2PublicKeys>
+		<crossCheckingDllsEnabled>false</crossCheckingDllsEnabled>
+		<crossCheckingDlls/>
+		<additionalPackerKey/>
+		<additionalPackerKeyName/>
+		<packExecutable>true</packExecutable>
+		<selectiveAnalysis>true</selectiveAnalysis>
+		<sourceRoot>build/src</sourceRoot>
+		<buildLocation>build/src</buildLocation>
+		<analysisRoot>build/src_analysis</analysisRoot>
+		<profilingRoot>build/src_profiling</profilingRoot>
+		<protectedRoot>build/src_protected</protectedRoot>
+		<frontendType>default</frontendType>
+		<profilingServerAddress>127.0.0.1</profilingServerAddress>
+		<profilingServerPort>26892</profilingServerPort>
+		<useCustomCommand>false</useCustomCommand>
+		<maxThreads>0</maxThreads>
+		<sourceProcessingThreads>0</sourceProcessingThreads>
+		<networkProfiling>true</networkProfiling>
+		<profilingFile>/sdcard/Download/scp_profiling.nwprofile</profilingFile>
+		<deleteProfilingFile>true</deleteProfilingFile>
+		<silentProfiling>false</silentProfiling>
+		<customBuild/>
+		<excludePath>com</excludePath>
+		<excludePath>me</excludePath>
+		<excludeOutsideRoot>false</excludeOutsideRoot>
+		<pathFilterIncludePatterns>*.cpp;*.hpp;*.cxx;*.hxx;*.cc;*.hh;*.inl;*.c;*.h;*.m;*.mm;*.swift;*.bc</pathFilterIncludePatterns>
+		<pathFilterShowExcludedFiles>true</pathFilterShowExcludedFiles>
+		<debugLogging>1</debugLogging>
+		<traceLogging>1</traceLogging>
+		<protectionLevel>60</protectionLevel>
+		<encryptMetadata>false</encryptMetadata>
+		<compatibleWithEmbeddedBitcode>false</compatibleWithEmbeddedBitcode>
+		<globalStringObfuscation>true</globalStringObfuscation>
+		<casesPerSwitch>2048</casesPerSwitch>
+		<useRelocationChecksum>0</useRelocationChecksum>
+		<stripOutput>false</stripOutput>
+		<ignoreWerror>true</ignoreWerror>
+		<executeUpdateBinary>true</executeUpdateBinary>
+		<useProtectionSeed>false</useProtectionSeed>
+		<protectionSeed>0</protectionSeed>
+		<useProtectionSettingsSeed>0</useProtectionSettingsSeed>
+		<protectionSettingsSeed>0</protectionSettingsSeed>
+		<tamperCorruptStackWeight>1</tamperCorruptStackWeight>
+		<tamperCorruptStateWeight>1</tamperCorruptStateWeight>
+		<integrityCheck>
+			<codeStrength>5</codeStrength>
+			<dataStrength>5</dataStrength>
+			<callback use="false" action="CorruptExecution"/>
+		</integrityCheck>
+		<antiDebug>
+			<callback use="false" action="CorruptExecution"/>
+		</antiDebug>
+		<rootDetection>
+			<callback use="false" action="CorruptExecution"/>
+		</rootDetection>
+		<threatReporting enabled="false">
+			<licenseKey/>
+			<bundleID/>
+			<onDiskKey/>
+			<userEmail/>
+			<appBundleID/>
+			<appVersion/>
+			<appOfficialVersion/>
+			<appName/>
+			<externalID1/>
+			<externalID2/>
+			<os/>
+			<arch/>
+		</threatReporting>
+		<group name="default" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>45</obfuscationVariables>
+			<obfuscationCoverage>60</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>10</dummyBlockStrength>
+			<asmBlobStrength>25</asmBlobStrength>
+			<stringLiteralObfuscation>1</stringLiteralObfuscation>
+			<smallFunctionObfuscation>false</smallFunctionObfuscation>
+			<forceProtection>false</forceProtection>
+			<staticFunctionInlining>false</staticFunctionInlining>
+			<maxInlinedBlocks>100</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<integrityCheck>
+				<codeIntegrity>true</codeIntegrity>
+				<dataIntegrity>true</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="true">
+				<strength>5</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>true</javaDebugger>
+			</antiDebug>
+			<rootDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</rootDetection>
+		</group>
+		<group name="obfuscation" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>100</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>0</dummyBlockStrength>
+			<asmBlobStrength>0</asmBlobStrength>
+			<stringLiteralObfuscation>1</stringLiteralObfuscation>
+			<smallFunctionObfuscation>true</smallFunctionObfuscation>
+			<forceProtection>true</forceProtection>
+			<staticFunctionInlining>false</staticFunctionInlining>
+			<maxInlinedBlocks>100</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<integrityCheck>
+				<codeIntegrity>false</codeIntegrity>
+				<dataIntegrity>false</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="false">
+				<strength>5</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>false</javaDebugger>
+			</antiDebug>
+			<rootDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</rootDetection>
+		</group>
+		<group name="security" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>100</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>10</dummyBlockStrength>
+			<asmBlobStrength>50</asmBlobStrength>
+			<stringLiteralObfuscation>1</stringLiteralObfuscation>
+			<smallFunctionObfuscation>true</smallFunctionObfuscation>
+			<forceProtection>true</forceProtection>
+			<staticFunctionInlining>false</staticFunctionInlining>
+			<maxInlinedBlocks>100</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<integrityCheck>
+				<codeIntegrity>true</codeIntegrity>
+				<dataIntegrity>true</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="true">
+				<strength>100</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>true</javaDebugger>
+			</antiDebug>
+			<rootDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</rootDetection>
+		</group>
+		<group name="speed" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>0</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>10</dummyBlockStrength>
+			<asmBlobStrength>25</asmBlobStrength>
+			<stringLiteralObfuscation>0</stringLiteralObfuscation>
+			<smallFunctionObfuscation>false</smallFunctionObfuscation>
+			<forceProtection>false</forceProtection>
+			<staticFunctionInlining>false</staticFunctionInlining>
+			<maxInlinedBlocks>100</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<integrityCheck>
+				<codeIntegrity>false</codeIntegrity>
+				<dataIntegrity>false</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="false">
+				<strength>5</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>false</javaDebugger>
+			</antiDebug>
+			<rootDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</rootDetection>
+		</group>
+		<group name="__obfuscation" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>100</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>0</dummyBlockStrength>
+			<asmBlobStrength>0</asmBlobStrength>
+			<stringLiteralObfuscation>1</stringLiteralObfuscation>
+			<smallFunctionObfuscation>true</smallFunctionObfuscation>
+			<forceProtection>true</forceProtection>
+			<staticFunctionInlining>false</staticFunctionInlining>
+			<maxInlinedBlocks>100</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<integrityCheck>
+				<codeIntegrity>false</codeIntegrity>
+				<dataIntegrity>false</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="false">
+				<strength>5</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>false</javaDebugger>
+			</antiDebug>
+			<rootDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</rootDetection>
+		</group>
+		<group name="__packer" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>100</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>10</dummyBlockStrength>
+			<asmBlobStrength>50</asmBlobStrength>
+			<stringLiteralObfuscation>1</stringLiteralObfuscation>
+			<smallFunctionObfuscation>true</smallFunctionObfuscation>
+			<forceProtection>true</forceProtection>
+			<staticFunctionInlining>true</staticFunctionInlining>
+			<maxInlinedBlocks>1000</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<integrityCheck>
+				<codeIntegrity>true</codeIntegrity>
+				<dataIntegrity>true</dataIntegrity>
+				<callback use="2" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="true">
+				<strength>100</strength>
+				<callback use="2" action="CorruptExecution"/>
+				<javaDebugger>true</javaDebugger>
+			</antiDebug>
+			<rootDetection enabled="false">
+				<strength>10</strength>
+				<callback use="2" action="CorruptExecution"/>
+			</rootDetection>
+		</group>
+		<group name="__security" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>100</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>10</dummyBlockStrength>
+			<asmBlobStrength>50</asmBlobStrength>
+			<stringLiteralObfuscation>1</stringLiteralObfuscation>
+			<smallFunctionObfuscation>true</smallFunctionObfuscation>
+			<forceProtection>true</forceProtection>
+			<staticFunctionInlining>true</staticFunctionInlining>
+			<maxInlinedBlocks>1000</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<integrityCheck>
+				<codeIntegrity>true</codeIntegrity>
+				<dataIntegrity>true</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="true">
+				<strength>100</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>true</javaDebugger>
+			</antiDebug>
+			<rootDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</rootDetection>
+		</group>
+		<group name="__speed" useDefaultGroupSettings="false">
+			<obfuscationCode>25</obfuscationCode>
+			<basicBlockStatements>90</basicBlockStatements>
+			<codeFlowDiversity>50</codeFlowDiversity>
+			<obfuscationVariables>20</obfuscationVariables>
+			<obfuscationCoverage>0</obfuscationCoverage>
+			<blockStateObfuscation>25</blockStateObfuscation>
+			<dummyBlockStrength>10</dummyBlockStrength>
+			<asmBlobStrength>25</asmBlobStrength>
+			<stringLiteralObfuscation>0</stringLiteralObfuscation>
+			<smallFunctionObfuscation>false</smallFunctionObfuscation>
+			<forceProtection>false</forceProtection>
+			<staticFunctionInlining>false</staticFunctionInlining>
+			<maxInlinedBlocks>100</maxInlinedBlocks>
+			<removeUnreachableBranch>false</removeUnreachableBranch>
+			<integrityCheck>
+				<codeIntegrity>false</codeIntegrity>
+				<dataIntegrity>false</dataIntegrity>
+				<callback use="0" action="CorruptExecution"/>
+			</integrityCheck>
+			<antiDebug enabled="false">
+				<strength>5</strength>
+				<callback use="0" action="CorruptExecution"/>
+				<javaDebugger>false</javaDebugger>
+			</antiDebug>
+			<rootDetection enabled="false">
+				<strength>10</strength>
+				<callback use="0" action="CorruptExecution"/>
+			</rootDetection>
+		</group>
+		<dcp enabled="true">
+			<originalInput>~/git/Monash_Study_base.apk</originalInput>
+			<javaHome>/Users/vagrant/.jenv/versions/11.0</javaHome>
+			<androidBuildTools>/usr/local/share/android-sdk/build-tools/32.0.0</androidBuildTools>
+			<sonameBase>study</sonameBase>
+			<extraArgs>--use-apkanalyzer=false --manifest=~/git/android/app/src/main --compress-library=off --include-only-entry-points</extraArgs>
+			<signingArgs></signingArgs>
+			<target>arm64-v8a</target>
+			<target>armeabi-v7a</target>
+			<target>x86</target>
+			<target>x86_64</target>
+			<analysisOutput>~/zshield/Monash_Study_base-analysis.apk</analysisOutput>
+			<profilingOutput>~/zshield/Monash_Study_base-profiling.apk</profilingOutput>
+			<protectionOutput>~/zshield/Monash_Study_base-protected.apk</protectionOutput>
+		</dcp>
+	</platform>
+</nw>
+
