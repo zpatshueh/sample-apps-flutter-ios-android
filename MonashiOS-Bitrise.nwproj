@@ -4,7 +4,7 @@
 		<buildTarget>Runner</buildTarget>
 		<useSchemeConfig>true</useSchemeConfig>
 		<buildConfig/>
-		<exportArchive>true</exportArchive>
+		<exportArchive>false</exportArchive>
 		<exportIPA>false</exportIPA>
 		<ipaAllowProvisioningUpdates>false</ipaAllowProvisioningUpdates>
 		<ipaPlistOptionFile/>
